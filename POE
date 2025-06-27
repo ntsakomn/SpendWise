@@ -92,23 +92,4 @@ Cloud sync and multi-device support
 
 Dark mode and accessibility improvements
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-Created by [Your Full Name]
-GitHub: https://github.com/yourusername
-Email: your.email@example.com
-
-markdown
-Copy
-Edit
-
----
-
-### Instructions:
-1. Replace:
-   - `yourusername` with your GitHub username
-   - `Your Full Name` and `your.email@example.com` with your actual name and contact info
-2. Place this content in a file named `README.md` in the root of your project directory
-3. (Optional) Add a `LICENSE` file with the MIT License if you plan to make this open source
