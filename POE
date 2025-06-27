@@ -1,0 +1,114 @@
+# SpendWise – Personal Budget Tracker for Android
+
+SpendWise is a modern, lightweight Android application built using Kotlin that helps users track expenses, manage financial goals, and monitor spending habits. The app is designed with a clean UI, intuitive navigation, and essential budgeting features, making personal finance management simple and effective.
+
+## Features
+
+- Add, edit, and delete income and expense transactions
+- Categorize transactions (e.g., Food, Rent, Travel)
+- View detailed spending reports and visual charts
+- Set and monitor savings goals
+- Track milestones through a built-in badge system
+- Attach photos and receipts to transactions
+- Secure user authentication via Firebase
+- Offline support with Room Database
+- Reminder notifications for budgeting habits
+- Fully responsive design following Material Design guidelines
+
+## Technology Stack
+
+- **Language:** Kotlin
+- **Architecture:** MVVM with LiveData and Coroutines
+- **Database:** Room (SQLite ORM)
+- **Authentication:** Firebase Authentication
+- **Charting:** MPAndroidChart
+- **UI Components:** AndroidX, Material Components
+- **CI/CD:** GitHub Actions
+- **Testing:** Unit tests with JUnit
+
+## Folder Structure
+
+com.spendwise
+├── data
+│ ├── model # Data models (Transaction, Badge)
+│ ├── dao # DAO interfaces for Room
+│ └── database # AppDatabase and configuration
+├── ui
+│ ├── fragments # UI fragments (Dashboard, Add, Reports, Badges)
+│ ├── adapters # RecyclerView adapters
+│ └── viewmodels # ViewModel classes
+├── gamification # Badge and milestone logic
+├── utils # Utility classes and helpers
+
+markdown
+Copy
+Edit
+
+## Getting Started
+
+### Prerequisites
+
+- Android Studio Hedgehog or newer
+- Android SDK 33+
+- Firebase project with `google-services.json`
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/spendwise.git
+Open the project in Android Studio.
+
+Set up Firebase:
+
+Create a Firebase project.
+
+Add an Android app and download the google-services.json file.
+
+Place it in the /app directory.
+
+Sync Gradle and run the app on an emulator or device.
+
+Usage
+After launching the app:
+
+Register or log in using Firebase Authentication
+
+Use the dashboard to view spending stats
+
+Add transactions and assign them to categories
+
+View your badges and milestone progress
+
+Set monthly or custom savings goals
+
+Planned Enhancements
+CSV/PDF export of monthly reports
+
+Budget reminders based on usage patterns
+
+Cloud sync and multi-device support
+
+Dark mode and accessibility improvements
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+Created by [Your Full Name]
+GitHub: https://github.com/yourusername
+Email: your.email@example.com
+
+markdown
+Copy
+Edit
+
+---
+
+### Instructions:
+1. Replace:
+   - `yourusername` with your GitHub username
+   - `Your Full Name` and `your.email@example.com` with your actual name and contact info
+2. Place this content in a file named `README.md` in the root of your project directory
+3. (Optional) Add a `LICENSE` file with the MIT License if you plan to make this open source
